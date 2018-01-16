@@ -41,7 +41,7 @@
   "bugs": {
     "url": "https://github.com/tommybonobo/inter-dimensional-syntax/issues"
   },
-  "repository": "https://github.com/atom/inter-dimensional-syntax",
+  "repository": "https://github.com/tommybonobo/inter-dimensional-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
