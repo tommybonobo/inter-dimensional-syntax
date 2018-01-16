@@ -1,6 +1,6 @@
 {
   "name": "inter-dimensional-syntax",
-  "readme": "# inter-dimensional-syntax theme\n\nA syntax theme for [Atom](https://atom.io/) with colors from Rick and Morty on a dark barkground. The code is mostly based on the [Dracula](https://atom.io/themes/dracula-syntax) for Atom syntax theme. The colors have been curated from the animated TV show Rick and Morty.",
+  "readme": "# inter-dimensional-syntax theme\n\nA syntax theme for Atom with colors from Rick and Morty on a dark background. The code is mostly based on the Dracula for Atom syntax theme. The colors have been curated from the animated TV show Rick and Morty.",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
