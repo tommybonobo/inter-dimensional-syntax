@@ -7,9 +7,9 @@
     "url": "git+https://github.com/tommybonobo/inter-dimensional-syntax.git"
   },
   "theme": "syntax",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "A syntax theme for Atom with colors from Rick and Morty on a dark barkground",
-  "homepage": "https://github.com/atom/inter-dimensional-syntax/atom#readme",
+  "homepage": "https://github.com/tommybonobo/inter-dimensional-syntax/blob/master/README.md",
   "keywords": [
     "colorful",
     "rick",
