@@ -2,12 +2,9 @@
   "name": "inter-dimensional-syntax",
   "readme": "# inter-dimensional-syntax theme\n\nA syntax theme for Atom with colors from Rick and Morty on a dark background. The code is mostly based on the Dracula for Atom syntax theme. The colors have been curated from the animated TV show Rick and Morty.",
   "readmeFilename": "README.md",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tommybonobo/inter-dimensional-syntax.git"
-  },
+  "repository": "https://github.com/tommybonobo/inter-dimensional-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A syntax theme for Atom with colors from Rick and Morty on a dark barkground",
   "homepage": "https://github.com/tommybonobo/inter-dimensional-syntax/blob/master/README.md",
   "keywords": [
@@ -41,7 +38,6 @@
   "bugs": {
     "url": "https://github.com/tommybonobo/inter-dimensional-syntax/issues"
   },
-  "repository": "https://github.com/tommybonobo/inter-dimensional-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
