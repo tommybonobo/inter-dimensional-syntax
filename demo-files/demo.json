@@ -1,0 +1,27 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\tom\\AppData\\Local\\Temp\\d-1171022-11496-1f6qdcg.vsa284obt9\\package.tgz",
+        "scope": null,
+        "type": "local"
+      },
+    ]
+  ],
+  "_from": "..\\d-1171022-11496-1f6qdcg.vsa284obt9\\package.tgz",
+  "_inCache": true,
+  "_requested": {
+    "raw": "C:\\Users\\tom\\AppData\\Local\\Temp\\d-1171022-11496-1f6qdcg.vsa284obt9\\package.tgz",
+  },
+  "contributors": [
+    {
+      "name": "tom",
+      "email": "ex@mp.le",
+      "url": "https://github.com/ex"
+    }
+  ],
+  "dependencies": {
+    "align-yaml": "^0.1.8",
+    "async": "^2.4.1",
+  }
+}

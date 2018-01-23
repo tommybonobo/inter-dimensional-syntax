@@ -1,5 +1,18 @@
 # Inter Dimensional Syntax Theme for Atom
 
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
+<!-- code_chunk_output -->
+
+* [Languages](#languages)
+* [To Do](#to-do)
+* [Changelog](#changelog)
+	* [Version 1.0.1](#version-101)
+	* [Version 1.0.0](#version-100)
+
+<!-- /code_chunk_output -->
+
+
 A syntax theme for [Atom](https://atom.io/) with colors from Rick and Morty on a dark barkground. The code is mostly based on the [Dracula](https://atom.io/themes/dracula-syntax) for Atom syntax theme. The colors have been curated from the animated TV show Rick and Morty with [inspiration from the following screenshots](inspiration/).
 
 ![bash](screenshots/sh.jpg)
@@ -23,3 +36,23 @@ Because the code base is [Dracula](https://atom.io/themes/dracula-syntax), which
 ## To Do
 * Still testing colors and accepting suggestions
   * If you have one, please change the colors first and provide a screenshot of the adjustment [here](https://github.com/tommybonobo/inter-dimensional-syntax/issues).
+
+## Changelog
+### Version 1.0.1
+* Changes to `colors.less`
+  * `@foreground` changed to `@rick-lab-coat`
+* Changes to `syntax-variables.less`
+	* `@syntax-color-renamed` darkened 10%
+	* `@syntax-color-added` darkened 30%
+	* `@syntax-color-modified` darkened 10%
+	* `@syntax-color-removed` darkened 20%
+* Changes to `base.less`
+  * `atom-text-editor.is-focused .selection .region` lightened by 10%
+  * `atom-text-editor.is-focused .line.cursor-line` lightened by 5%
+  * `atom-text-editor .gutter .line-number.git-line-added (border-left-width)` changed from 5px to 3px
+  * `.syntax--keyword` removed `font-weight: bold;`
+  * `atom-text-editor .highlight.find-result .region (background)` lightened by 17%
+  * `atom-text-editor .highlight.current-result .region,
+  atom-text-editor .highlight.current-result ~ .highlight.selection .region (background)` lightened by 10%
+### Version 1.0.0
+* Initial publication

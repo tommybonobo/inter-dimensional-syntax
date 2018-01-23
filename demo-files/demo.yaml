@@ -1,0 +1,30 @@
+language: php
+php:
+  # aliased to a recent 5.6.x version
+  - 5.6
+  # aliased to a recent 7.x version
+  - 7.0
+  # aliased to a recent hhvm version
+  - hhvm
+env:
+  - DB=mysql
+  - DB=pgsql
+matrix:
+  exclude:
+    - php: hhvm
+      env: DB=pgsql  # PDO driver for pgsql is unsupported by HHVM (3rd party install for support)
+  allow_failures:
+    - php: 7.0
+    - php: hhvm
+before_script:
+  - if [[ "$DB" == "pgsql" ]]; then psql -c "DROP DATABASE IF EXISTS hello_world_test;" -U postgres; fi
+build: false
+clone_folder: c:\phpunit
+max_jobs: 3
+platform: x86
+pull_requests:
+  do_not_increment_build_number: true
+version: '{build}.{branch}'
+test_script:
+  - cd c:\phpunit
+  - php phpunit

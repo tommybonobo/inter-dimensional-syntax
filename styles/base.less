@@ -10,11 +10,11 @@ atom-text-editor.is-focused .cursor {
 }
 
 atom-text-editor.is-focused .selection .region {
-  background-color: @focused-selection-region;
+  background-color: lighten(@focused-selection-region, 10%);
 }
 
 atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line {
-  background-color: @focused-selection-region;
+  background-color: lighten(@focused-selection-region, 5%);
 }
 
 atom-text-editor .invisible-character {
@@ -28,7 +28,7 @@ atom-text-editor .indent-guide {
 atom-text-editor .gutter .line-number.git-line-modified,
 atom-text-editor .gutter .line-number.git-line-removed,
 atom-text-editor .gutter .line-number.git-line-added {
-  border-left-width: 5px;
+  border-left-width: 3px;
   padding-left: calc(0.5em - 5px);
 }
 
@@ -78,7 +78,7 @@ atom-text-editor .gutter .line-number.git-line-added {
 }
 
 .syntax--keyword {
-  font-weight: bold;
+  //font-weight: bold;
   color: @morty;
 }
 
@@ -287,13 +287,13 @@ atom-text-editor .gutter .line-number.git-line-added {
 }
 
 atom-text-editor .highlight.find-result .region {
-  background: lighten(@dark-gray, 3%);
+  background: lighten(@dark-gray, 20%);
   z-index: -1000;
 }
 
 atom-text-editor .highlight.current-result .region,
 atom-text-editor .highlight.current-result ~ .highlight.selection .region {
-  background: lighten(@dark-gray, 20%); // to distinguish from the other results
+  background: lighten(@dark-gray, 30%); // to distinguish from the other results
   z-index: -1000;
 }
 

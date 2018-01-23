@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300);
+@import "css/libs/required";
+// ------- This is a comment ----------
+img {
+	@extend %max-width;
+	display: block;
+	@include trailer(4);
+}
+h1, h2, h3, h4, h5, h6 	{
+	color: $heading-color;
+.global-header {
+	overflow: hidden;
+	background: $jack-black;
+	@include padding-trailer(6);
+	text-align: center;
+	@include respond-to($b-vp) {
+		text-align: left;
+	}
+}
+.global-logo {
+	font-weight: 700;
+	@include adjust-font-size-to($delta);
+		float: left;
+	}
+	a {
+		color: #fff;
+		text-decoration: none;
+		@include link-active-styles {
+			color: $action-respond;
+		}
+	}
+}

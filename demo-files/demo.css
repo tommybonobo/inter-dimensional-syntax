@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300);
+img {
+  max-width: 100%;
+  height: auto;
+}
+img {
+  display: block;
+  margin-bottom: 1.1em;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #333333;
+}
+@media screen and (min-width: 420px) {
+  .global-header {
+    text-align: left;
+  }
+}
+.global-logo {
+  font-weight: 700;
+  font-size: 1.625em;
+  line-height: 1.1846154em;
+}
+.lt-ie9 .global-logo {
+  float: left;
+}
+@media screen and (min-width: 600px) {
+  .global-header__navigation li {
+    margin-left: 2.5em;
+.no-svg .fff-svg {
+  display: none;
+  visibility: none;
+}
