@@ -31,7 +31,7 @@ Because the code base is [Dracula](https://atom.io/themes/dracula-syntax), which
 * [bash](screenshots/bash.jpg)
 * [sql](screenshots/sql.jpg)
 * [xml](screenshots/xml.jpg)
-* [yml](screenshots/yml.jpg)
+* [yaml](screenshots/yaml.jpg)
 
 ## To Do
 * Still testing colors and accepting suggestions
