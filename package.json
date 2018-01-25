@@ -4,7 +4,7 @@
   "readmeFilename": "README.md",
   "repository": "https://github.com/tommybonobo/inter-dimensional-syntax",
   "theme": "syntax",
-  "version": "1.6.0",
+  "version": "2.0.0",
   "description": "A syntax theme for Atom with colors from Rick and Morty on a dark barkground",
   "homepage": "https://github.com/tommybonobo/inter-dimensional-syntax/blob/master/README.md",
   "keywords": [
