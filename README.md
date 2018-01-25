@@ -36,6 +36,10 @@ Because the code base is [Dracula](https://atom.io/themes/dracula-syntax), which
   * If you have one, please change the colors first and provide a screenshot of the adjustment [here](https://github.com/tommybonobo/inter-dimensional-syntax/issues).
 
 ## Changelog
+### Version 1.5.0
+* Correction to apm publish
+### Version 1.4.0
+* Correction to apm publish
 ### Version 1.3.0
 * Updated screenshots
 ### Version 1.2.0
