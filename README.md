@@ -1,21 +1,19 @@
 # Inter Dimensional Syntax Theme for Atom
 
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=2 orderedList=false} -->
 <!-- code_chunk_output -->
 
 * [Languages](#languages)
 * [To Do](#to-do)
 * [Changelog](#changelog)
-	* [Version 1.0.1](#version-101)
-	* [Version 1.0.0](#version-100)
 
 <!-- /code_chunk_output -->
 
 
 A syntax theme for [Atom](https://atom.io/) with colors from Rick and Morty on a dark barkground. The code is mostly based on the [Dracula](https://atom.io/themes/dracula-syntax) for Atom syntax theme. The colors have been curated from the animated TV show Rick and Morty with.
 
-![bash](screenshots/bash.jpg)
+![demo](screenshots/demo.gif)
 
 ## Languages
 Because the code base is [Dracula](https://atom.io/themes/dracula-syntax), which is possibly the best coded themes that I have found so far, many languages work great. The following languages have been tested and optimized for experience, click of the language for a screenshot of the syntax in action:
@@ -38,7 +36,11 @@ Because the code base is [Dracula](https://atom.io/themes/dracula-syntax), which
   * If you have one, please change the colors first and provide a screenshot of the adjustment [here](https://github.com/tommybonobo/inter-dimensional-syntax/issues).
 
 ## Changelog
-### Version 1.0.1
+### Version 1.3.0
+* Updated screenshots
+### Version 1.2.0
+* Correction to apm publish
+### Version 1.1.0
 * Changes to `colors.less`
   * `@foreground` changed to `@rick-lab-coat`
 * Changes to `syntax-variables.less`
